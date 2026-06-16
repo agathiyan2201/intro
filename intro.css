@@ -1,0 +1,56 @@
+body {
+  background-image: url("fc5b1f434035b9d8a680d4cd3056bb9d.jpg");
+
+}
+#head{
+    color: red;
+}
+#para{
+    color: rgb(231, 8, 12);
+}
+p.one{
+    border: 2px dotted black;
+}
+#form{
+    background-image: url("background.webp");
+    background-size: cover;
+    background-position: center;
+    border-style: 2px solid black;
+    border-radius: 200px;
+      margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    &:hover {
+        background-color: rgb(8, 238, 77);
+        color: black;
+    }
+}
+#user{
+    color: rgba(12, 12, 12, 0.863);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#pass{
+    color: rgba(12, 12, 12, 0.863);
+    font-size: 20px;
+    font-weight: bold;
+}
+#name{
+    color: rgba(12, 12, 12, 0.863);
+    font-size: 20px;
+    font-weight: bold;
+}
+#table{
+
+    border-style: 5px dotted rgb(1, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+}
